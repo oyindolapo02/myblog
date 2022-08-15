@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Article.css' %}">
+    <script src="https://kit.fontawesome.com/b5f518753b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="article-page">
+        {% include 'navbar.html' %}
+
+        <div class="artic-white">
+            <div class="image-text">
+                <div class="blog-one blog">
+                    <img src="{% static 'image/city.jpg' %}" alt="">
+                    <h2>THE CITYWALLS</h2>
+                    <p>Sampling based on field survey and measurement, this article reveals the component feature of the
+                        city-wall materials of
+                        the Neolithic Liangzhu City-site, then further discusses theirs source associating with XRD
+                        analysis, grain size and
+                        geochemical elements. The results are as follows: (1) with the grain size, geochemical elements
+                        and clay minerals
+                        combination’s characteristics similar with Mantou and Huangnikou mounds’, the northern city-wall
+                        earth is dominated by
+                        clay silt. City-wall earth’s clay minerals’ combination is Illite-Kaolinite-Vermiculite/Mixture
+                        of Chlorite and
+                        Vermiculite-Smectite. Padded earth’s characteristics in northern city-wall are similar with the
+                        forth layer earth’s
+                        which widely distribute in this area. The wall-earth’s source, therefore, is deduced from near
+                        Mantou and Huangnikou
+                        mounds. (2) Mounds like Mantou went through strong oxidant activity because of its high
+                        elevation. The raw earth
+                        consists of lacustrine-swamp facies and went through reduction activity because of its low
+                        elevation, which result in
+                        their different minerals’ component and degree of crystallinity, geochemical elements. The
+                        Neolithic people in Liangzhu
+                        area used the local earth only for the city-wall’s foundation, not to build the city-wall
+                        directly. They choose the soil
+                        form near mounds like Mantou which was thought more proper to build city-wall. The full-text was
+                        published in Chinese
+                        with English abstract.</p>
+                </div>
+
+                <div class="blog-two blog">
+                    <img src="{% static 'image/bulldog.jpg' %}" alt="">
+                    <h2>#2. The bulldog</h2>
+                    <p>People continue to ask and I am repeating the info as not everyone sees everything posted. Dr.
+                        Gail Golab of the
+                        American Veterinary Medical Association in conjunction with the CDC answer your most common
+                        questions regarding pets and
+                        COVID-19
+
+                        On my Steve Dale’s Pet World Listen HERE as Dr. Gail Golab, Chief Veterinary Officer, Scientific
+                        Affairs and Public
+                        Policy at the American Veterinary Medical Association explains what we do know and what we still
+                        may not be sure of
+                        regarding COVID-19 (SARS-CoV-2) and companion animals.
+
+                        Veterinarians deal with corona viruses a lot and have for a very long time, canine and feline
+                        corona viruses – which the
+                        two species don’t share with one another or share with people. Also, when we get the common cold
+                        it’s usually a human
+                        corona virus (not to be confused with the novel corona virus which is now impacting the entire
+                        planet) and dogs and cats
+                        have never gotten colds from humans. But as Dr. Golab notes, this virus is different, and it’s
+                        novel; we’re still
+                        learning about it.
+
+                        There was a dog tested for the COVID-19 virus in Hong Kong, owned by someone who was suffering
+                        from COVID-19. The dog
+                        does have a low level of infection. But the dog has not become ill, and has not been able to
+                        spread the virus to other
+                        dogs or to people. (Important to note: any animal may carry and infection does not equate with
+                        infectious).
+                    </p>
+                </div>
+
+                <!-- <div class="blog-three blog">
+                    <img src="{% static  'image/forest.jpg'%}" alt="">
+                    <h2>3. THE FOREST</h2>
+                    <P>Land use change, such as land conversion for crops, livestock raising, and urban settlements, is
+                        the main factor
+                        affecting terrestrial ecosystems and the vital contributions made by living nature to humanity,
+                        referred to as Nature’s
+                        contributions to people (NCP; Díaz et al. 2019). Nature’s regulating contributions include
+                        functional and structural
+                        features of organisms and ecosystems that change environmental conditions experienced by people
+                        and regulate the
+                        generation of material and non-material contributions. Nature’s material contributions to people
+                    </P>
+                </div> -->
+            </div>
+        </div>
+
+        <div>
+            {% include 'Footer.html' %}
+        </div>
+    </div>
+
+</body>
+
+</html>
